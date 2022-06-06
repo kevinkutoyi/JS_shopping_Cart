@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  overflow: hidden;
+}
+#nav-bar {
+  margin-top: 30px;
+  background-color: #fff;
+  position: fixed;
+  right: 15px;
+  z-index: 10;
+  padding-top: 0px;
+}
+#logo-cap {
+  background-color: #fff;
+  height: 125px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+header img {
+  margin-left: 25px;
+  float: left;
+}
+header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+nav ul {
+  float: right;
+  display: inline-flex;
+  margin-top: 35px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  padding: 15px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  border: 1px solid #000;
+  padding: 5px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  color: #fff;
+  background-color: silver;
+}
+#intro {
+  margin-top: 185px;
+  padding-bottom: 0;
+}
+#intro h2 {
+  text-align: center;
+}
+#form {
+  display: block;
+  text-align: center;
+}
+input {
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+}
+#email {
+  width: 250px;
+  background-color: silver;
+}
+#email::placeholder {
+  font-family: sans-serif;
+  color: #000;
+}
+#submit {
+  background-color: yellow;
+  border: none;
+  width: 175px;
+  font-weight: bolder;
+}
+
+#img-logo {
+  position: relative;
+  top: 102px;
+  left: 15%;
+}
+#paragraph {
+  width: 500px;
+  padding: 15px 20px;
+  position: absolute;
+  left: 28%;
+}
+#main {
+  margin-top: -50px;
+}
+iframe {
+  max-width: 75%;
+  display: block;
+  margin: 145px auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  max-width: 850px;
+  margin-top: -65px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+.col {
+  text-align: center;
+  border: 1px solid #000;
+  width: 200px;
+  margin: 15px 0;
+}
+.col h3 {
+  background-color: silver;
+  text-align: center;
+  padding: 15px;
+}
+.col {
+  margin-left: 30px;
+}
+.col h4 {
+  margin: 15px 0;
+  font-size: 24px;
+}
+.col p {
+  padding: 5px 0;
+}
+#btn {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}
+#btn:hover,
+:focus {
+  background-color: silver;
+}
+footer {
+  background-color: grey;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+}
+#footer-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 15px;
+  margin-right: 25px;
+
+  padding-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  #img-logo {
+    left: -100px;
+    visibility: hidden;
+  }
+  #features {
+    margin-left: 10px;
+  }
+  #paragraph {
+    position: absolute;
+    left: 75px;
+    text-align: center;
+  }
+}
